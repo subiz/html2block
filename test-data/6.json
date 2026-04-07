@@ -1,0 +1,12 @@
+{
+  "type": "div",
+  "content": [
+    {
+      "type": "link",
+      "text": "\n    Bỏ qua\n  ",
+      "class": "md-skip",
+      "href": "https://hdsd.minvoice.com.vn/minvoice2/huong-dan/in-hang-loat/#tai-hang-loat-hoa-on-pdf-va-xml"
+    }
+  ],
+  "attrs": { "data-md-component": "skip" }
+}

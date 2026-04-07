@@ -1,0 +1,380 @@
+{
+  "type": "div",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "link",
+          "text": " Bỏ qua ",
+          "class": "md-skip",
+          "href": "#huong-dan-lay-lai-mat-khau-ang-nhap"
+        }
+      ],
+      "attrs": { "data-md-component": "skip" }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "id": "huong-dan-lay-lai-mat-khau-ang-nhap",
+              "type": "heading",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Hướng dẫn lấy lại mật khẩu đăng nhập",
+                  "bold": true
+                },
+                {
+                  "type": "link",
+                  "text": "¶",
+                  "class": "headerlink",
+                  "title": "Permanent link",
+                  "href": "#huong-dan-lay-lai-mat-khau-ang-nhap",
+                  "attrs": { "title": "Permanent link" }
+                }
+              ],
+              "level": 1
+            },
+            {
+              "id": "buoc-1-am-bao-ung-uong-link-ang-nhap",
+              "type": "heading",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bước 1: Đảm bảo đúng đường link đăng nhập",
+                  "bold": true
+                },
+                {
+                  "type": "link",
+                  "text": "¶",
+                  "class": "headerlink",
+                  "title": "Permanent link",
+                  "href": "#buoc-1-am-bao-ung-uong-link-ang-nhap",
+                  "attrs": { "title": "Permanent link" }
+                }
+              ],
+              "level": 3
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "link",
+                  "content": [
+                    {
+                      "type": "image",
+                      "alt_text": "Hình 1",
+                      "image": {
+                        "url": "../../../assets/images/invoice1/1.0_layMK_1.png"
+                      }
+                    }
+                  ],
+                  "class": "glightbox",
+                  "href": "../../../assets/images/invoice1/1.0_layMK_1.png",
+                  "attrs": {
+                    "data-desc-position": "bottom",
+                    "data-height": "auto",
+                    "data-type": "image",
+                    "data-width": "auto"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Đường link đăng nhập có dạng : MST.minvoice.com.vn Trong đó MST chính là mã số thuế của doanh nghiệp"
+                }
+              ]
+            },
+            {
+              "id": "buoc-2-o-man-hinh-ang-nhap-chon-nut-quen-mat-khau-e-lay-lai-mat-khau",
+              "type": "heading",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bước 2: Ở màn hình đăng nhập chọn nút quên mật khẩu để lấy lại mật khẩu",
+                  "bold": true
+                },
+                {
+                  "type": "link",
+                  "text": "¶",
+                  "class": "headerlink",
+                  "title": "Permanent link",
+                  "href": "#buoc-2-o-man-hinh-ang-nhap-chon-nut-quen-mat-khau-e-lay-lai-mat-khau",
+                  "attrs": { "title": "Permanent link" }
+                }
+              ],
+              "level": 3
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "link",
+                  "content": [
+                    {
+                      "type": "image",
+                      "alt_text": "Hình 2",
+                      "image": {
+                        "url": "../../../assets/images/invoice1/1.0_layMK_2.png"
+                      }
+                    }
+                  ],
+                  "class": "glightbox",
+                  "href": "../../../assets/images/invoice1/1.0_layMK_2.png",
+                  "attrs": {
+                    "data-desc-position": "bottom",
+                    "data-height": "auto",
+                    "data-type": "image",
+                    "data-width": "auto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "buoc-3-giao-dien-quen-mat-khau-ban-co-the-lay-lai-mat-khau-qua-2-cach-1-la-email-2-bang-chu-ky-so",
+              "type": "heading",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bước 3 : Giao diện quên mật khẩu, bạn có thẻ lấy lại mật khẩu qua 2 cách, 1 là Email , 2 bằng chữ ký số",
+                  "bold": true
+                },
+                {
+                  "type": "link",
+                  "text": "¶",
+                  "class": "headerlink",
+                  "title": "Permanent link",
+                  "href": "#buoc-3-giao-dien-quen-mat-khau-ban-co-the-lay-lai-mat-khau-qua-2-cach-1-la-email-2-bang-chu-ky-so",
+                  "attrs": { "title": "Permanent link" }
+                }
+              ],
+              "level": 3
+            },
+            {
+              "id": "1-lay-lai-mat-khau-qua-email",
+              "type": "heading",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "# 1, Lấy lại mật khẩu qua Email",
+                  "bold": true
+                },
+                {
+                  "type": "link",
+                  "text": "¶",
+                  "class": "headerlink",
+                  "title": "Permanent link",
+                  "href": "#1-lay-lai-mat-khau-qua-email",
+                  "attrs": { "title": "Permanent link" }
+                }
+              ],
+              "level": 3
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "link",
+                  "content": [
+                    {
+                      "type": "image",
+                      "alt_text": "Hình 3",
+                      "image": {
+                        "url": "../../../assets/images/invoice1/1.0_layMK_3.png"
+                      }
+                    }
+                  ],
+                  "class": "glightbox",
+                  "href": "../../../assets/images/invoice1/1.0_layMK_3.png",
+                  "attrs": {
+                    "data-desc-position": "bottom",
+                    "data-height": "auto",
+                    "data-type": "image",
+                    "data-width": "auto"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bạn nhập đúng địa chỉ Email đã đăng ký với phần mềm, sau đó nhấn Gửi (F10)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Sau đó tài khoản và mật khẩu sẽ tự động được gửi vào Email cho bạn"
+                }
+              ]
+            },
+            {
+              "id": "2-lay-lai-mat-khau-qua-chu-ky-so",
+              "type": "heading",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "# 2, Lấy lại mật khẩu qua Chữ ký số",
+                  "bold": true
+                },
+                {
+                  "type": "link",
+                  "text": "¶",
+                  "class": "headerlink",
+                  "title": "Permanent link",
+                  "href": "#2-lay-lai-mat-khau-qua-chu-ky-so",
+                  "attrs": { "title": "Permanent link" }
+                }
+              ],
+              "level": 3
+            },
+            {
+              "type": "iframe",
+              "style": { "width": "43rem", "height": "380px" },
+              "image": { "url": "https://www.youtube.com/embed/AIJm4Xc6Uro" },
+              "attrs": { "allowfullscreen": "", "frameborder": "0" }
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Hướng dẫn lấy lại mật khẩu bằng hình ảnh nếu Quý khách không xem được Video"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "link",
+                  "content": [
+                    {
+                      "type": "image",
+                      "alt_text": "Hình 4",
+                      "image": {
+                        "url": "../../../assets/images/invoice1/1.0_layMK_4.png"
+                      }
+                    }
+                  ],
+                  "class": "glightbox",
+                  "href": "../../../assets/images/invoice1/1.0_layMK_4.png",
+                  "attrs": {
+                    "data-desc-position": "bottom",
+                    "data-height": "auto",
+                    "data-type": "image",
+                    "data-width": "auto"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bạn nhập tên tài khoản (Thường sẽ là mã số thuế của doanh nghiệp), và xác nhận lại 2 lần mật khẩu , sau đó nhấn nhận Để thực hiện chức năng này, bạn bắt buộc phải cài plugin, và dùng đúng chữ ký số đã đăng ký với phần mềm"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Nếu bạn chưa cài Plugin có thể cài plugin qua đường dẫn sau đây "
+                },
+                {
+                  "type": "link",
+                  "text": "Plugin",
+                  "href": "https://plugin.minvoice.com.vn/MinvoicePlugin/publish.htm"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Xin chân thành cảm ơn Quý khách hàng đã tin dùng sản phẩm của M-Invoice"
+                    }
+                  ],
+                  "class": "admonition-title"
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Có bất kỳ vướng mắc nào trong quá trình sử dụng hãy liên hệ với M-Invoice tại mục Hỗ trợ kỹ thuật góc phải bên dưới màn hình hoặc gọi tổng đài kỹ thuật của M-Invoice (1900.955.557 Nhánh 1)"
+                    }
+                  ]
+                }
+              ],
+              "class": "admonition info"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "link",
+                  "content": [
+                    {
+                      "type": "image",
+                      "alt_text": "Hình 5",
+                      "image": {
+                        "url": "../../../assets/images/invoice1/1.0_suaTienBangTay_5.png"
+                      }
+                    }
+                  ],
+                  "class": "glightbox",
+                  "href": "../../../assets/images/invoice1/1.0_suaTienBangTay_5.png",
+                  "attrs": {
+                    "data-desc-position": "bottom",
+                    "data-height": "auto",
+                    "data-type": "image",
+                    "data-width": "auto"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                { "type": "text", "text": "Last updated on " },
+                { "type": "text", "text": "Jun 5, 2025", "bold": true },
+                { "type": "text", "text": " by " },
+                { "type": "text", "text": "nhatth", "bold": true }
+              ],
+              "class": "last-updated"
+            }
+          ],
+          "class": "md-content md-content__inner md-typeset"
+        }
+      ],
+      "class": "md-container md-grid md-main md-main__inner"
+    }
+  ],
+  "attrs": {
+    "data-md-color-accent": "indigo",
+    "data-md-color-primary": "custom",
+    "data-md-color-scheme": "default",
+    "dir": "ltr"
+  }
+}

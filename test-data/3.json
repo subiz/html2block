@@ -1,0 +1,140 @@
+{
+  "type": "div",
+  "content": [
+    {
+      "type": "heading",
+      "content": [
+        { "type": "text", "text": "Welcome", "italic": true },
+        { "type": "text", "text": " to the " },
+        { "type": "text", "text": "Random", "bold": true },
+        { "type": "text", "text": " Page" }
+      ],
+      "level": 1
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        { "type": "text", "text": "This is a paragraph with " },
+        { "type": "text", "text": "italic text", "italic": true },
+        { "type": "text", "text": " and some " },
+        { "type": "text", "text": "bold emphasis", "bold": true },
+        { "type": "text", "text": " to highlight important content." }
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "content": [
+        { "type": "list_item", "content": [{ "type": "text", "text": "One" }] },
+        { "type": "list_item", "content": [{ "type": "text", "text": "Two" }] }
+      ]
+    },
+    {
+      "type": "image",
+      "alt_text": "Random Image",
+      "image": { "url": "https://picsum.photos/300?random=7" }
+    },
+    {
+      "type": "link",
+      "text": "How about a link",
+      "href": "https://subiz.com.vn"
+    },
+    {
+      "type": "heading",
+      "content": [{ "type": "text", "text": "This is a h1" }],
+      "level": 1
+    },
+    {
+      "type": "heading",
+      "content": [{ "type": "text", "text": "Data Overview" }],
+      "level": 2
+    },
+    {
+      "type": "table",
+      "content": [
+        {
+          "type": "table_row",
+          "content": [
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "ID", "bold": true }]
+            },
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "Name", "italic": true }]
+            },
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "Score" }]
+            }
+          ]
+        },
+        {
+          "type": "table_row",
+          "content": [
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "1" }]
+            },
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "Alice", "italic": true }]
+            },
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "87", "bold": true }]
+            }
+          ]
+        },
+        {
+          "type": "table_row",
+          "content": [
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "2" }]
+            },
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "Bob", "italic": true }]
+            },
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "92", "bold": true }]
+            }
+          ]
+        },
+        {
+          "type": "table_row",
+          "content": [
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "3" }]
+            },
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "Charlie", "italic": true }]
+            },
+            {
+              "type": "table_cell",
+              "content": [{ "type": "text", "text": "78", "bold": true }]
+            }
+          ]
+        }
+      ],
+      "attrs": { "border": "1", "cellpadding": "8" }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Thanks for visiting. Here's another image just for fun:"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "alt_text": "Another Image",
+      "image": { "url": "https://picsum.photos/250?random=15" }
+    }
+  ]
+}

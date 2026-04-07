@@ -1,0 +1,15 @@
+{
+  "content": [
+    {
+      "italic": true,
+      "text": "xin chao ",
+      "type": "text"
+    },
+    {
+      "bold": true,
+      "text": " the gio",
+      "type": "text"
+    }
+  ],
+  "type": "div"
+}

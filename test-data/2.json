@@ -1,0 +1,13 @@
+{
+  "type": "div",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [{ "type": "text", "text": "xin chao", "underline": true }]
+    },
+    {
+      "type": "paragraph",
+      "content": [{ "type": "text", "text": "tam biet", "italic": true }]
+    }
+  ]
+}

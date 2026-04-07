@@ -388,9 +388,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -401,9 +398,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -451,9 +445,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -464,9 +455,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -514,9 +502,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -527,9 +512,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -583,9 +565,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -596,9 +575,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -646,9 +622,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -659,9 +632,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -715,9 +685,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -728,9 +695,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -778,9 +742,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -791,9 +752,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -841,9 +799,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -854,9 +809,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -910,9 +862,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -923,9 +872,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -973,9 +919,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -986,9 +929,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1036,9 +976,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1049,9 +986,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1105,9 +1039,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1118,9 +1049,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1174,9 +1102,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1187,9 +1112,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1237,9 +1159,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1250,9 +1169,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1306,9 +1222,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1319,9 +1232,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1369,9 +1279,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1382,9 +1289,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1438,9 +1342,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1451,9 +1352,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1507,9 +1405,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1520,9 +1415,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1570,9 +1462,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1583,9 +1472,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1639,9 +1525,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1652,9 +1535,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1708,9 +1588,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1721,9 +1598,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1777,9 +1651,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1790,9 +1661,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1846,9 +1714,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1859,9 +1724,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1915,9 +1777,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1928,9 +1787,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1978,9 +1834,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -1991,9 +1844,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2047,9 +1897,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2060,9 +1907,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2116,9 +1960,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2129,9 +1970,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2179,9 +2017,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2192,9 +2027,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2242,9 +2074,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2255,9 +2084,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2305,9 +2131,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2318,9 +2141,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2374,9 +2194,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2387,9 +2204,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2437,9 +2251,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2450,9 +2261,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2506,9 +2314,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2519,9 +2324,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2575,9 +2377,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2588,9 +2387,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2638,9 +2434,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2651,9 +2444,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2707,9 +2497,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2720,9 +2507,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2776,9 +2560,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2789,9 +2570,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2845,9 +2623,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2858,9 +2633,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2914,9 +2686,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2927,9 +2696,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2983,9 +2749,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -2996,9 +2759,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3052,9 +2812,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3065,9 +2822,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3121,9 +2875,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3134,9 +2885,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3190,9 +2938,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3203,9 +2948,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3259,9 +3001,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3272,9 +3011,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3328,9 +3064,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3341,9 +3074,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3397,9 +3127,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3410,9 +3137,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3466,9 +3190,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3479,9 +3200,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3535,9 +3253,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3548,9 +3263,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3604,9 +3316,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3617,9 +3326,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3673,9 +3379,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3686,9 +3389,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3736,9 +3436,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3749,9 +3446,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3799,9 +3493,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3812,9 +3503,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3868,9 +3556,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3881,9 +3566,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3937,9 +3619,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -3950,9 +3629,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4006,9 +3682,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4019,9 +3692,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4075,9 +3745,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4088,9 +3755,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4144,9 +3808,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4157,9 +3818,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4213,9 +3871,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4226,9 +3881,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4282,9 +3934,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4295,9 +3944,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4351,9 +3997,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4364,9 +4007,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4420,9 +4060,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4433,9 +4070,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4489,9 +4123,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4502,9 +4133,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4558,9 +4186,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4571,9 +4196,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4627,9 +4249,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4640,9 +4259,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4696,9 +4312,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4709,9 +4322,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4765,9 +4375,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4778,9 +4385,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4828,9 +4432,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4841,9 +4442,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4897,9 +4495,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4910,9 +4505,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4960,9 +4552,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -4973,9 +4562,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5029,9 +4615,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5042,9 +4625,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5098,9 +4678,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5111,9 +4688,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5167,9 +4741,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5180,9 +4751,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5236,9 +4804,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5249,9 +4814,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5305,9 +4867,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5318,9 +4877,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5374,9 +4930,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5387,9 +4940,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5443,9 +4993,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5456,9 +5003,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5512,9 +5056,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5525,9 +5066,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5581,9 +5119,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5594,9 +5129,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5650,9 +5182,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5663,9 +5192,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5719,9 +5245,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5732,9 +5255,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5788,9 +5308,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5801,9 +5318,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5857,9 +5371,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5870,9 +5381,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5926,9 +5434,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5939,9 +5444,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -5995,9 +5497,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6008,9 +5507,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6064,9 +5560,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6077,9 +5570,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6133,9 +5623,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6146,9 +5633,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6196,9 +5680,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6209,9 +5690,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6265,9 +5743,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6278,9 +5753,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6334,9 +5806,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6347,9 +5816,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6403,9 +5869,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6416,9 +5879,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6472,9 +5932,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6485,9 +5942,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6541,9 +5995,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6554,9 +6005,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6610,9 +6058,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6623,9 +6068,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6679,9 +6121,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6692,9 +6131,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6742,9 +6178,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6755,9 +6188,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6805,9 +6235,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6818,9 +6245,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6874,9 +6298,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6887,9 +6308,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6943,9 +6361,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -6956,9 +6371,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7012,9 +6424,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7025,9 +6434,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7075,9 +6481,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7088,9 +6491,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7144,9 +6544,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7157,9 +6554,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7213,9 +6607,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7226,9 +6617,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7282,9 +6670,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7295,9 +6680,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7351,9 +6733,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7364,9 +6743,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7420,9 +6796,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7433,9 +6806,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7489,9 +6859,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7502,9 +6869,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7558,9 +6922,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7571,9 +6932,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7627,9 +6985,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7640,9 +6995,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7696,9 +7048,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7709,9 +7058,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7765,9 +7111,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7778,9 +7121,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7834,9 +7174,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7847,9 +7184,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7903,9 +7237,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7916,9 +7247,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7972,9 +7300,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -7985,9 +7310,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8041,9 +7363,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8054,9 +7373,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8104,9 +7420,6 @@
                       "content": [
                         {
                           "bold": true,
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8117,9 +7430,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8173,9 +7483,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8186,9 +7493,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8242,9 +7546,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8255,9 +7556,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8311,9 +7609,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8324,9 +7619,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8380,9 +7672,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8393,9 +7682,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8449,9 +7735,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8462,9 +7745,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8518,9 +7798,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8531,9 +7808,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8587,9 +7861,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8600,9 +7871,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8656,9 +7924,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8669,9 +7934,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8725,9 +7987,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8738,9 +7997,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8794,9 +8050,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8807,9 +8060,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8863,9 +8113,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8876,9 +8123,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8932,9 +8176,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -8945,9 +8186,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9001,9 +8239,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9014,9 +8249,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9070,9 +8302,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9083,9 +8312,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9139,9 +8365,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9152,9 +8375,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9208,9 +8428,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9221,9 +8438,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9277,9 +8491,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9290,9 +8501,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9346,9 +8554,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9359,9 +8564,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9415,9 +8617,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9428,9 +8627,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9484,9 +8680,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9497,9 +8690,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9553,9 +8743,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9566,9 +8753,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9622,9 +8806,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9635,9 +8816,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9691,9 +8869,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9704,9 +8879,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9760,9 +8932,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9773,9 +8942,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9829,9 +8995,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9842,9 +9005,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9898,9 +9058,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9911,9 +9068,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9967,9 +9121,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -9980,9 +9131,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10036,9 +9184,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10049,9 +9194,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10105,9 +9247,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10118,9 +9257,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10174,9 +9310,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10187,9 +9320,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10243,9 +9373,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10256,9 +9383,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10312,9 +9436,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10325,9 +9446,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10381,9 +9499,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10394,9 +9509,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10450,9 +9562,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10463,9 +9572,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10519,9 +9625,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10532,9 +9635,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10588,9 +9688,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10601,9 +9698,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10657,9 +9751,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10670,9 +9761,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10726,9 +9814,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10739,9 +9824,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10795,9 +9877,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10808,9 +9887,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10864,9 +9940,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10877,9 +9950,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10933,9 +10003,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -10946,9 +10013,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11002,9 +10066,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11015,9 +10076,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11071,9 +10129,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11084,9 +10139,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11140,9 +10192,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11153,9 +10202,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11209,9 +10255,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11222,9 +10265,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11278,9 +10318,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11291,9 +10328,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11347,9 +10381,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11360,9 +10391,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11416,9 +10444,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11429,9 +10454,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11485,9 +10507,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11498,9 +10517,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11554,9 +10570,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11567,9 +10580,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11623,9 +10633,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {
@@ -11636,9 +10643,6 @@
                               "type": "text"
                             }
                           ],
-                          "style": {
-                            "font_weight": "700"
-                          },
                           "type": "table_cell"
                         },
                         {

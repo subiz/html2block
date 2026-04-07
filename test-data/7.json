@@ -1,0 +1,18 @@
+{
+  "type": "div",
+  "attrs": {
+    "data-md-component": "skip"
+  },
+  "content": [
+    {
+      "type": "text",
+      "strike_through": true,
+      "text": "deleted"
+    },
+    {
+      "type": "link",
+      "href": "#",
+      "text": "ok"
+    }
+  ]
+}

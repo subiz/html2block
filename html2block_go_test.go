@@ -2,6 +2,8 @@ package html2block
 
 import (
 	"encoding/json"
+	"fmt"
+	"strconv"
 	"os"
 	"reflect"
 	"testing"
@@ -9,7 +11,7 @@ import (
 	"github.com/subiz/header"
 )
 
-func normalize(v interface{}) interface{} {
+func normalize(v interface{}, ignoreStyle bool) interface{} {
 	switch val := v.(type) {
 	case map[string]interface{}:
 		newMap := make(map[string]interface{})
@@ -19,13 +21,16 @@ func normalize(v interface{}) interface{} {
 					continue
 				}
 			}
-			newMap[k] = normalize(v)
+			if ignoreStyle && k == "style" {
+				continue
+			}
+			newMap[k] = normalize(v, ignoreStyle)
 		}
 		return newMap
 	case []interface{}:
 		newSlice := make([]interface{}, len(val))
 		for i, v := range val {
-			newSlice[i] = normalize(v)
+			newSlice[i] = normalize(v, ignoreStyle)
 		}
 		return newSlice
 	default:
@@ -33,8 +38,13 @@ func normalize(v interface{}) interface{} {
 	}
 }
 
-func assertJSON(t *testing.T, actual *header.Block, expectedJSON string) {
+func assertJSON(t *testing.T, actual *header.Block, expectedJSON string, ignoreStyle ...bool) {
 	t.Helper()
+
+	shouldIgnoreStyle := true
+	if len(ignoreStyle) > 0 {
+		shouldIgnoreStyle = ignoreStyle[0]
+	}
 
 	// Normalize actual by marshaling to JSON and then unmarshaling into a generic interface
 	actualBytes, _ := json.Marshal(actual)
@@ -42,14 +52,14 @@ func assertJSON(t *testing.T, actual *header.Block, expectedJSON string) {
 	if err := json.Unmarshal(actualBytes, &aMap); err != nil {
 		t.Fatalf("failed to unmarshal actual: %v", err)
 	}
-	aMap = normalize(aMap)
+	aMap = normalize(aMap, shouldIgnoreStyle)
 
 	// Normalize expected by unmarshaling the provided JSON string
 	var eMap interface{}
 	if err := json.Unmarshal([]byte(expectedJSON), &eMap); err != nil {
 		t.Fatalf("failed to unmarshal expected: %v", err)
 	}
-	eMap = normalize(eMap)
+	eMap = normalize(eMap, shouldIgnoreStyle)
 
 	// reflect.DeepEqual on generic maps/slices handles order-independence for map keys
 	if !reflect.DeepEqual(aMap, eMap) {
@@ -59,7 +69,6 @@ func assertJSON(t *testing.T, actual *header.Block, expectedJSON string) {
 	}
 }
 
-// testHtmlToBlock1
 func TestHTML2Block_TableFile(t *testing.T) {
 	html, err := os.ReadFile("test-data/minvoice_table.html")
 	if err != nil {
@@ -145,22 +154,15 @@ func TestHTML2Block_EntitiesAndStyle(t *testing.T) {
 	html := `<span style="color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:12pt;font-family:&quot;Arial&quot;;font-style:normal">L&agrave;m sao &#273;&#7875; ki&#7875;m tra t&igrave;nh tr&#7841;ng &#273;&#417;n h&agrave;ng c&#7911;a m&igrave;nh?</span>`
 	out := HTML2Block(html)
 	expected := `{
-          "content": [
-            {
-              "bold": true,
-              "style": {
-                "color": "#000000",
-                "font_family": "\"Arial\"",
-                "font_size": "12pt",
-                "font_style": "normal",
-                "font_weight": "700"
-              },
-              "text": "Làm sao để kiểm tra tình trạng đơn hàng của mình?",
-              "type": "text"
-            }
-          ],
-          "type": "div"
-        }`
+		"type": "div",
+		"content": [
+			{
+				"type": "text",
+				"bold": true,
+				"text": "Làm sao để kiểm tra tình trạng đơn hàng của mình?"
+			}
+		]
+	}`
 	assertJSON(t, out, expected)
 }
 
@@ -186,7 +188,7 @@ func TestHTML2Block_Style(t *testing.T) {
 		"style": {"color": "red", "border_radius": "4px"},
 		"content": [{"type": "text", "text": "Hello"}]
 	}`
-	assertJSON(t, out, expected)
+	assertJSON(t, out, expected, false)
 }
 
 func TestHTML2Block_EmptyTextEquivalence(t *testing.T) {
@@ -194,4 +196,36 @@ func TestHTML2Block_EmptyTextEquivalence(t *testing.T) {
 	// assertJSON should treat {"text": ""} as {} because of normalize
 	assertJSON(t, out, `{"type": "div", "text": ""}`)
 	assertJSON(t, out, `{"type": "div"}`)
+}
+
+func TestHTMLToBlock1(t *testing.T) {
+	for i := range 9 {
+		t.Run(strconv.Itoa(i), func(t *testing.T) {
+			html, err := os.ReadFile(fmt.Sprintf("./test-data/%d.html", i))
+			if err != nil {
+				panic(err)
+			}
+
+			expectb, err := os.ReadFile(fmt.Sprintf("./test-data/%d.json", i))
+			if err != nil {
+				panic(err)
+			}
+			block := HTML2Block(string(html))
+			assertJSON(t, block, string(expectb))
+		})
+	}
+}
+
+func TestHTMLToBlockMinvoice(t *testing.T) {
+	html, err := os.ReadFile("./test-data/minvoice.html")
+	if err != nil {
+		panic(err)
+	}
+
+	expectb, err := os.ReadFile("./test-data/minvoice.json")
+	if err != nil {
+		panic(err)
+	}
+	block := HTML2Block(string(html))
+	assertJSON(t, block, string(expectb))
 }

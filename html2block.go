@@ -72,6 +72,7 @@ type Emoji struct {
 var LexicalEmojiList []Emoji
 
 func HTML2Block(htmlStr string) *header.Block {
+	htmlStr = strings.TrimSpace(htmlStr)
 	doc, _ := html.Parse(strings.NewReader(htmlStr))
 	body := findBody(doc)
 	if body == nil {
@@ -84,7 +85,11 @@ func HTML2Block(htmlStr string) *header.Block {
 	cleanBlock(output)
 	output = cleanEmptyP(output)
 
-	if output != nil && output.Type == "paragraph" {
+	if output == nil {
+		return &header.Block{}
+	}
+
+	if output.Type == "paragraph" {
 		output.Type = "div"
 	}
 	return output
