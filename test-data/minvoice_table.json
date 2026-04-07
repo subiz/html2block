@@ -1,0 +1,4190 @@
+{
+	"type": "div",
+	"content": [
+		{
+			"type": "paragraph",
+			"class": "md-container md-grid md-main md-main__inner",
+			"content": [
+				{
+					"type": "paragraph",
+					"class": "md-content md-content__inner md-typeset",
+					"content": [
+						{"type": "heading", "level": 1, "content": [{"type": "text", "text": "Danh sách đơn vị tích hợp"}]},
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"type": "table",
+									"content": [
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Tên nhà cung cấp"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Tên sản phẩm"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Dự án tích hợp"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Trạng thái"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Phiên bản tích hợp"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Phương thức tích hợp"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell"},
+												{"type": "table_cell"},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "select",
+															"content": [
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "-- Tất cả --"}],
+																	"attrs": {"value": ""}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "EInvoice"}],
+																	"attrs": {"value": "EInvoice"}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "Xăng dầu"}],
+																	"attrs": {"value": "Xăng dầu"}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "mSMI"}],
+																	"attrs": {"value": "mSMI"}
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "select",
+															"content": [
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "-- Tất cả --"}],
+																	"attrs": {"value": ""}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "Chưa bắt đầu"}],
+																	"attrs": {"value": "Chưa bắt đầu"}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "Ngưng hợp tác"}],
+																	"attrs": {"value": "Ngưng hợp tác"}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "Đang kiểm thử"}],
+																	"attrs": {"value": "Đang kiểm thử"}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "Đang thực hiện"}],
+																	"attrs": {"value": "Đang thực hiện"}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "Đã golive"}],
+																	"attrs": {"value": "Đã golive "}
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "select",
+															"content": [
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "-- Tất cả --"}],
+																	"attrs": {"value": ""}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "EInvoice 1.0"}],
+																	"attrs": {"value": "EInvoice 1.0 "}
+																},
+																{
+																	"type": "option",
+																	"content": [
+																		{
+																			"type": "text",
+																			"text": "\n                            EInvoice 1.0 và 2.0\n                          "
+																		}
+																	],
+																	"attrs": {"value": "EInvoice 1.0 và 2.0"}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "EInvoice 2.0"}],
+																	"attrs": {"value": "EInvoice 2.0 "}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "mPetro"}],
+																	"attrs": {"value": "mPetro"}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "mSMI"}],
+																	"attrs": {"value": "mSMI"}
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "select",
+															"content": [
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "-- Tất cả --"}],
+																	"attrs": {"value": ""}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "API"}],
+																	"attrs": {"value": "API "}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "Tool"}],
+																	"attrs": {"value": "Tool "}
+																},
+																{
+																	"type": "option",
+																	"content": [{"type": "text", "text": "WebService"}],
+																	"attrs": {"value": "WebService"}
+																}
+															]
+														}
+													]
+												}
+											],
+											"class": "filter-row"
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY CỔ PHẦN IPOS.VN"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý bán hàng Fabi\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phiên bản phần mềm quản lý bán hàng của iPOS PC\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán Ipos"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Phần mềm Tin học ABC\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm Quản trị TCKT Auggess\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm Quản trị TCKT Auggess\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty cổ phần công nghệ Sapo\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm bán hàng trên máy tính thuộc hệ sinh thái Sapo\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý nhà hàng/quán cafe của Sapo\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý bán lẻ của Sapo\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty Cổ phần Vacom"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán VacomS"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm kế toán VacomOnline\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm kế toán VacomOnline\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN CÔNG NGHỆ POSAPP\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        phần mềm quản lý bán hàng đa ngành POSAPP\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN KỸ THUẬT DTECH\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán Dtech"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm bán hàngDtech"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Phần mềm Sivip\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm kế toán Sivip Online\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "PMKT Sivip Online"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Công nghệ Dcorp\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý nhà hàng Dcorp R-Keeper\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Giải pháp Doanh nghiệp SSE\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán SSE"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "PMKT SSE"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY TNHH INFOPLUS"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Phần mềm infoERP"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH CÔNG NGHỆ EZCLOUD TOÀN CẦU\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý EZ Cloud\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty cổ phần giải pháp công nghệ Newway\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm Quản lý Khách sạn Newway PMS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN CÔNG NGHỆ THÔNG TIN ĐỊA LÝ EK\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Citywork"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN 3T-SMARTKEY\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm kế toán offline 3T Accounting\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm kế toán online 3T Cloud\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty TNHH SMILE PMS"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Hệ thống phần mềm quản lý khách sạn SMILE PMS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty TNHH 1C Việt Nam"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản trị doanh nghiệp sản xuất 1C Company\n                        Management\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản trị tài chính kế toán : 1C: Finance &\n                        Accounting\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Quản lý chuỗi bán lẻ 1C Retail Chain\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Kế toán doanh nghiệp vừa và nhỏ Accounting Suite\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY CỔ PHẦN NHANH.VN"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý bán hàng đa kênh Nhanh.vn\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý bán hàng đa kênh Nhanh.vn\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY CỔ PHẦN SOFLEX"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm ứng dụng bán hàng SOFLEX\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH PHẦN MỀM VIỆT ĐÀ\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán Việt Đà"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "PMKT Việt Đà"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "ODOO"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm hoạch định tài nguyên doanh nghiệp ODOO\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "TMG group ( PM nội bộ )"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm quản lýTMG D365"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty SmartAccounting"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm kế toán SmartAccounting\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Symper Việt Nam\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm quản lý Symper"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "CNS"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán CNS"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty Cổ phần VASPOS"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "VASPOS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "APOLO"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Hệ thống quản lý APOLO"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "PECO"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý tủ dữ liệu PECO\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CALIFORNIA ( PM nội bộ )"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý CALIFORNIA\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH TM VÀ GIẢI PHÁP CÔNG NGHỆ BÌNH MINH\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm quản lý SERP"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "WebService"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Công ty SEI"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý cửa hàng xăng dầu igas\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "EFFECT"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán EFFECT"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Nhị Hà"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán Nhị Hà"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "SGD"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán SGD"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN DỊCH VỤ HÀNG KHÔNG SÂN BAY NỘI BÀI\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm bán hàng Miễn thuế\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm bán hàng QR"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "NASCO - Phúc Long"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Công nghệ ITG\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm erp 3SERP"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "WebService"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Cty TNHH Tổng hợp Ngọc Mỹ Kim\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "9pos"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Giải pháp Công nghệ A3\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý doanh nghiệp A3 Solutions\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-checking", "text": "Đang kiểm thử"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Công nghệ Vidiva\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Vidiva"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Công ty Nhanh.vn"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "phần mềm QLBH Nhanh.vn"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty KIN(Nội bộ)"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "KIN"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "PAVO"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "PAVO - Pharmacy"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ MOSS (techmoss )\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        PM quản lí nhà thuốc MOSS PHARMA\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Balas Technologies"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Dynamics 365 Business Central\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH METANET VINA MST 0314316854\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Meta Invoice"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN Y TẾ MEDHOMES\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        phần mềm quản lý khám chữa bệnh HIS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Data Viet"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "DataViet"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH PHẦN MỀM LINKQ ERP\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "LINKQ"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        LOOP TECHNOLOGIES COMPANY LIMITED\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "LOOP Smart"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Quản lý KS, Cloudbed"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Kiotviet"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        tool Kiotviet (POS, sàn TMĐT)\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Tool"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "POS365"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Tool"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        SAI GON ADVANCED JOINT STOCK COMPANY\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "ASC - Quản lý học phí"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        SAI GON ADVANCED JOINT STOCK COMPANY\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "ASC - Quản lý học phí"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY TNHH Tường Minh"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        PetroATM - PM quản lý xăng dầu\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CP GIẢI PHÁP CÔNG NGHỆ SEN VÀNG\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "LOTUS POS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN THƯƠNG MẠI TRUYỀN THÔNG TỐC ĐỘ\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Speed POS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công Ty Tnhh Teibto"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Netsuite"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY CỔ PHẦN ERATEQ"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Erateq POS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH CÔNG NGHỆ MMENU\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "POS Mmenu"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công Ty TNHH Timesoft"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        TIME SOFT - Quản lý gym - yoga - bơi ( tem vé)\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Toàn Cầu Xanh"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý đăng kiểm\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY TNHH FINAN"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Ecom (kết nối sàn TMĐT)"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần S.I.S Việt Nam\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "PM kế toán SIS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty Softek Solution"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần Mềm Quản Lý Forwarder FAST PRO\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY CỔ PHẦN WORKIT"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        ERP phần mềm quản trị doanh nghiệp\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH CÔNG NGHỆ VĨNH HY\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm bán hàng"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công Ty Cổ Phần Tenamyd Cosmetic\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán Foxpro"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN PHẦN MỀM VÀNG\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần Mềm Vàng Kiovn"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        SAP Business One (SAP B1) - Phần mềm kế toán\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty cổ phần công nghệ Tam Khoa\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "TAM KHOA PM KẾ TOÁN"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "ATALINK TECHNOLOGY JSC"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        ATALINK – Giải pháp quản trị chuỗi cung ứng hợp nhất\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần thiết bị & giải pháp sạc điện EV ONE\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EV ONE"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CTCP Anh Thư (ATC)"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "ATC"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY TNHH HILO GROUP"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Senpos"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Thiết bị xăng dầu Petrolimex - PECO\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Peco"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Tool"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        VIETGAS HOLDING - CÔNG TY TNHH PHƯỚC THIÊN\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Vietgas"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "SmartAccounting"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Smart Z-GAS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH CƠ ĐIỆN LẠNH MONTECH\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Montech"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty TNHH Thiết bị xăng dầu Hoàng Long\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Smart gas"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH XĂNG DẦU NAM DƯƠNG\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Nam Dương"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu Việt"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty cổ phần SMARTPETRO Việt Nam\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Petrocloud"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công Ty Cổ Phần Thiết Bị Xăng Dầu Miền Bắc\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Xăng dầu Miền Bắc"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH QUICK VIỆT NAM\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "QuickPOS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ QPOS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "QPOS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH GIẢI PHÁP THANH TOÁN SMARTPOS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "SmartPOS(loop)"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "MISA"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Cuk Cuk"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Tool"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Phần mềm vàng"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Pro Gold Retail"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH AUGUST VIỆT NAM\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "augues"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "EHH"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EHH"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH CÔNG NGHỆ VÀ DỊCH VỤ 3T SOLUTION\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "3T Soft"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "FNB POS VN"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "FNB POS VN"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY TNHH OCHA"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Ocha"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN GIẢI PHÁP DIHOTEL\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "DIHOTEL"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY TNHH GOLDEN BREW"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "GDB E"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "text": "", "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Cresort"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY CỔ PHẦN RELISOFT"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "RELISOFT"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH CÔNG NGHỆ F2\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "F2-Tech"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH KAIKEI VIỆT NAM\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "KAIKE"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY TNHH TECHER"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "TECHRES"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0 và 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN PHẦN MỀM BRAVO\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Bravo"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN CÔNG NGHỆ G9\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "G9"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN CÔNG NGHỆ G9\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "G9"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty CP Công nghệ Trường Minh Thịnh\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "TPOS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY TNHH NASYS"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm bán hàng POS nasys\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ VIETHAS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm bán hàng sale365\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ NEWWAY\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý KS - (Hộ kinh doanh)\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "SMART PMS"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý KS - SMART PMS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty TNHH Anh Thư Company\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Tool xăng dầu (ATC databox)\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Goodlife"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Goodlife CRM"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty cổ phần công nghệ Aibat\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm quản lý Aibat"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "30Shines"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "30Shines"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM TPSOFT\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "egpp"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công Ty TNHH EVMobility"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Nội bộ"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm MAYBANHANG.NET"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "maybanhang"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Mỹ phẩm quốc tế Thùy Dung\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "ERP nội bộ"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "SHPT"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm Quản lý phòng khám\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Tin học & truyền thông Tân Nguyên\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Tabas web/app"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Daisy"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "DSPOS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty TNHH Document Easy\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        ALOBO - Quản lý sân thể thao\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty TNHH Phát triển giải pháp CNTT TRÍ VIỆT\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm Kế toán TRÍ VIỆT Accounting Office\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 1.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Tin học Viễn thông Petrolimex\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "PIACOM"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Xăng dầu"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mPetro"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Giám sát hành trình quốc gia\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "giamsat.bodam3g.com"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Tuha"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Tuha"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Đông Dương"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "PMBH Đông Dương"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "VTTech"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản lý khách hàng VTTech\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "DAILV Solution"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Bán hàng nhà ăn"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty cổ phần công nghệ MeSoft\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        quản lý cho thuê xe ô tô CarVip\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty TNHH thiết bị an ninh và ứng dụng Công nghệ\n                        (Secutech)\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        phần mềm quản lý xe MT5.0\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-checking", "text": "Đang kiểm thử"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "Funvivo Tech JSC"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "eJOY English"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Trung tâm tiêm chủng Vabiotech Care\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "vabiotech"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "SmartHotel"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Phần mềm quản trị khách sạn Smart Hotel PMS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "TIDI MOVE"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "TIDI MOVE"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-stopped", "text": "Ngưng hợp tác"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty TNHH Trung Nhật GPS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Quản lý xe vận tải"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Công nghệ Getfly Việt Nam\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Hệ thống quản lý và chăm sóc khách hàng - phần mềm CRM\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{"type": "table_cell", "content": [{"type": "text", "text": "SAG Việt Nam"}], "bold": true},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Phần mềm kế toán 1V"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty Cổ phần Công nghệ FPTPOS\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "FPTPOS"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công Ty CP Giải Pháp Ứng Dụng và Phát Triển Công Nghệ\n                        Hoàng Thịnh Group\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Tích hợp xuất hóa đơn thuế cho hệ thống Carparking\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-checking", "text": "Đang kiểm thử"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công Ty TNHH Giải Pháp Số FOCO\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "FOCO"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty One Solution"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        RDOS (Retail Distributed Order System)\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty cổ phần Hublock"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Tủ thông minh Hublock"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty TNHH Giải pháp Công nghệ Data V Tech\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "Epicor ERP"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "CÔNG TY TNHH TADA LABS"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Quản lý bán hàng innoPOS"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty cổ phần CloudFly"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Dịch vụ Cloud và hosting"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-inprogress", "text": "Đang thực hiện"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Công ty TNHH MTV Sợi Tơ"}],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Baieta Invoice BO"}],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Công ty cổ phần giải pháp công nghệ coreDX\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "CoreDX"}], "bold": true},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "class": "status-golive", "text": "Đã golive"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "mSMI"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										},
+										{
+											"type": "table_row",
+											"content": [
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        SCV Research and Development Pte. Ltd.\n                      "
+														}
+													],
+													"bold": true
+												},
+												{
+													"type": "table_cell",
+													"content": [
+														{
+															"type": "text",
+															"text": "\n                        Tasconect hỗ trợ chuỗi cung ứng\n                      "
+														}
+													],
+													"bold": true
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice"}]},
+												{
+													"type": "table_cell",
+													"content": [{"type": "text", "text": "Chưa bắt đầu"}],
+													"class": "status-cell"
+												},
+												{"type": "table_cell", "content": [{"type": "text", "text": "EInvoice 2.0"}]},
+												{"type": "table_cell", "content": [{"type": "text", "text": "API"}]}
+											]
+										}
+									]
+								}
+							],
+							"id": "sheet-table-container"
+						},
+						{
+							"type": "paragraph",
+							"content": [
+								{"type": "text", "text": "\n                Last updated on "},
+								{"type": "text", "text": "May 27, 2025", "bold": true},
+								{"type": "text", "text": " by\n                "},
+								{"type": "text", "text": "nhatth", "bold": true}
+							],
+							"class": "last-updated"
+						}
+					]
+				}
+			]
+		}
+	],
+	"attrs": {
+		"dir": "ltr",
+		"data-md-color-scheme": "default",
+		"data-md-color-primary": "custom",
+		"data-md-color-accent": "indigo",
+		"data-md-color-media": ""
+	}
+}
