@@ -5,6 +5,8 @@ import (
 	"os"
 	"reflect"
 	"testing"
+
+	"github.com/subiz/header"
 )
 
 func normalize(v interface{}) interface{} {
@@ -31,7 +33,7 @@ func normalize(v interface{}) interface{} {
 	}
 }
 
-func assertJSON(t *testing.T, actual *Block, expectedJSON string) {
+func assertJSON(t *testing.T, actual *header.Block, expectedJSON string) {
 	t.Helper()
 
 	// Normalize actual by marshaling to JSON and then unmarshaling into a generic interface
@@ -143,15 +145,22 @@ func TestHTML2Block_EntitiesAndStyle(t *testing.T) {
 	html := `<span style="color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:12pt;font-family:&quot;Arial&quot;;font-style:normal">L&agrave;m sao &#273;&#7875; ki&#7875;m tra t&igrave;nh tr&#7841;ng &#273;&#417;n h&agrave;ng c&#7911;a m&igrave;nh?</span>`
 	out := HTML2Block(html)
 	expected := `{
-		"type": "div",
-		"content": [
-			{
-				"type": "text",
-				"bold": true,
-				"text": "Làm sao để kiểm tra tình trạng đơn hàng của mình?"
-			}
-		]
-	}`
+          "content": [
+            {
+              "bold": true,
+              "style": {
+                "color": "#000000",
+                "font_family": "\"Arial\"",
+                "font_size": "12pt",
+                "font_style": "normal",
+                "font_weight": "700"
+              },
+              "text": "Làm sao để kiểm tra tình trạng đơn hàng của mình?",
+              "type": "text"
+            }
+          ],
+          "type": "div"
+        }`
 	assertJSON(t, out, expected)
 }
 
@@ -169,8 +178,19 @@ func TestHTML2Block_BR(t *testing.T) {
 	assertJSON(t, out, expected)
 }
 
+func TestHTML2Block_Style(t *testing.T) {
+	html := `<div style="color: red; border-radius: 4px;">Hello</div>`
+	out := HTML2Block(html)
+	expected := `{
+		"type": "div",
+		"style": {"color": "red", "border_radius": "4px"},
+		"content": [{"type": "text", "text": "Hello"}]
+	}`
+	assertJSON(t, out, expected)
+}
+
 func TestHTML2Block_EmptyTextEquivalence(t *testing.T) {
-	out := &Block{Type: "div", Text: ""}
+	out := &header.Block{Type: "div", Text: ""}
 	// assertJSON should treat {"text": ""} as {} because of normalize
 	assertJSON(t, out, `{"type": "div", "text": ""}`)
 	assertJSON(t, out, `{"type": "div"}`)

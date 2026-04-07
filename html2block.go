@@ -7,30 +7,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/subiz/header"
 	"golang.org/x/net/html"
 )
-
-// Block represents a json-based description of HTML
-type Block struct {
-	Type      string            `json:"type"`
-	Text      string            `json:"text,omitempty"`
-	Bold      bool              `json:"bold,omitempty"`
-	Italic    bool              `json:"italic,omitempty"`
-	Underline bool              `json:"underline,omitempty"`
-	Strike    bool              `json:"strike,omitempty"`
-	Code      bool              `json:"code,omitempty"`
-	Level     int               `json:"level,omitempty"`
-	Href      string            `json:"href,omitempty"`
-	Title     string            `json:"title,omitempty"`
-	AltText   string            `json:"alt_text,omitempty"`
-	Target    string            `json:"target,omitempty"`
-	Class     string            `json:"class,omitempty"`
-	ID        string            `json:"id,omitempty"`
-	Style     map[string]string `json:"style,omitempty"`
-	Attrs     map[string]string `json:"attrs,omitempty"`
-	Content   []*Block          `json:"content,omitempty"`
-	Image     *ImageInfo        `json:"image,omitempty"`
-}
 
 type ImageInfo struct {
 	URL    string `json:"url"`
@@ -92,7 +71,7 @@ type Emoji struct {
 
 var LexicalEmojiList []Emoji
 
-func HTML2Block(htmlStr string) *Block {
+func HTML2Block(htmlStr string) *header.Block {
 	doc, _ := html.Parse(strings.NewReader(htmlStr))
 	body := findBody(doc)
 	if body == nil {
@@ -200,7 +179,7 @@ func shouldIgnore(tagName string) bool {
 	return false
 }
 
-func domToBlock(n *html.Node, options Options) *Block {
+func domToBlock(n *html.Node, options Options) *header.Block {
 	if n == nil {
 		return nil
 	}
@@ -218,7 +197,7 @@ func domToBlock(n *html.Node, options Options) *Block {
 		if strings.TrimSpace(text) == "" {
 			return nil
 		}
-		o := &Block{
+		o := &header.Block{
 			Type: "text",
 			Text: text,
 		}
@@ -232,7 +211,7 @@ func domToBlock(n *html.Node, options Options) *Block {
 			o.Underline = true
 		}
 		if strike {
-			o.Strike = true
+			o.StrikeThrough = true
 		}
 		return o
 	}
@@ -242,23 +221,23 @@ func domToBlock(n *html.Node, options Options) *Block {
 		return nil
 	}
 
-	style := make(map[string]string)
+	style := &header.Style{}
 	rawStyle := getAttr(n, "style")
 	parsedStyle := parseStyle(rawStyle)
 	for _, key := range styleAttributes {
 		if val, ok := parsedStyle[key]; ok {
-			style[key] = val
+			setStyleField(style, key, val)
 		}
 	}
 
 	formatedTagNames := map[string]bool{"U": true, "I": true, "B": true, "STRONG": true, "EM": true, "DEL": true}
 	if formatedTagNames[tagName] {
-		o := &Block{
+		o := &header.Block{
 			Type: "text",
-			ID:   getAttr(n, "id"),
+			Id:   getAttr(n, "id"),
 			Text: getTextContent(n),
 		}
-		if len(style) > 0 {
+		if !isStyleEmpty(style) {
 			o.Style = style
 		}
 		if !options.SkipClass {
@@ -274,18 +253,18 @@ func domToBlock(n *html.Node, options Options) *Block {
 			o.Underline = true
 		}
 		if strike {
-			o.Strike = true
+			o.StrikeThrough = true
 		}
 		return o
 	}
 
 	if tagName == "BR" {
-		o := &Block{
+		o := &header.Block{
 			Type: "text",
 			Text: "\n",
-			ID:   getAttr(n, "id"),
+			Id:   getAttr(n, "id"),
 		}
-		if len(style) > 0 {
+		if !isStyleEmpty(style) {
 			o.Style = style
 		}
 		if !options.SkipClass {
@@ -294,18 +273,22 @@ func domToBlock(n *html.Node, options Options) *Block {
 		return o
 	}
 
-	customObj := &Block{
-		ID:      getAttr(n, "id"),
+	customObj := &header.Block{
+		Id:      getAttr(n, "id"),
 		Title:   getAttr(n, "title"),
 		AltText: getAttr(n, "alt"),
 		Href:    getAttr(n, "href"),
+	}
+
+	if !isStyleEmpty(style) {
+		customObj.Style = style
 	}
 
 	if bold {
 		customObj.Bold = true
 	}
 	if strike {
-		customObj.Strike = true
+		customObj.StrikeThrough = true
 	}
 	if italic {
 		customObj.Italic = true
@@ -318,7 +301,7 @@ func domToBlock(n *html.Node, options Options) *Block {
 		customObj.Class = getAttr(n, "class")
 	}
 	if src := getAttr(n, "src"); src != "" {
-		customObj.Image = &ImageInfo{URL: src}
+		customObj.Image = &header.File{Url: src}
 	}
 
 	remainAttrs := make(map[string]string)
@@ -335,7 +318,7 @@ func domToBlock(n *html.Node, options Options) *Block {
 	if tagName == "SPAN" && hasClass(n, "lexical-emoji") {
 		for _, emoji := range LexicalEmojiList {
 			if hasClass(n, emoji.Code) {
-				return &Block{
+				return &header.Block{
 					Type:  "emoji",
 					Attrs: map[string]string{"code": emoji.Code},
 				}
@@ -344,7 +327,7 @@ func domToBlock(n *html.Node, options Options) *Block {
 		// find first element child
 		for c := n.FirstChild; c != nil; c = c.NextSibling {
 			if c.Type == html.ElementNode {
-				return &Block{
+				return &header.Block{
 					Type:  "emoji",
 					Attrs: map[string]string{"code": getTextContent(c)},
 				}
@@ -378,8 +361,8 @@ func domToBlock(n *html.Node, options Options) *Block {
 	if len(tagName) >= 2 && tagName[0] == 'H' && tagName[1] >= '1' && tagName[1] <= '8' {
 		level, _ := strconv.Atoi(tagName[1:])
 		customObj.Type = "heading"
-		customObj.Level = level
-		var content []*Block
+		customObj.Level = int64(level)
+		var content []*header.Block
 		for c := n.FirstChild; c != nil; c = c.NextSibling {
 			cb := domToBlock(c, options)
 			if cb != nil {
@@ -395,7 +378,7 @@ func domToBlock(n *html.Node, options Options) *Block {
 		t = tagName
 	}
 	customObj.Type = strings.ToLower(t)
-	var content []*Block
+	var content []*header.Block
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
 		cb := domToBlock(c, options)
 		if cb != nil {
@@ -428,13 +411,13 @@ func mergeClass(a, b string) string {
 	return strings.Join(res, " ")
 }
 
-func collapseBlock(parent, block *Block) {
+func collapseBlock(parent, block *header.Block) {
 	if block == nil {
 		return
 	}
 
 	if len(block.Content) > 0 {
-		children := make([]*Block, len(block.Content))
+		children := make([]*header.Block, len(block.Content))
 		copy(children, block.Content)
 		for _, child := range children {
 			collapseBlock(block, child)
@@ -451,19 +434,17 @@ func collapseBlock(parent, block *Block) {
 			block.Content = nil
 			block.Italic = block.Italic || child.Italic
 			block.Bold = block.Bold || child.Bold
-			block.Strike = block.Strike || child.Strike
+			block.StrikeThrough = block.StrikeThrough || child.StrikeThrough
 			block.Underline = block.Underline || child.Underline
-			if block.ID == "" {
-				block.ID = child.ID
+			if block.Id == "" {
+				block.Id = child.Id
 			}
 			block.Class = mergeClass(block.Class, child.Class)
 			if child.Style != nil {
 				if block.Style == nil {
-					block.Style = make(map[string]string)
+					block.Style = &header.Style{}
 				}
-				for k, v := range child.Style {
-					block.Style[k] = v
-				}
+				mergeStyle(block.Style, child.Style)
 			}
 		} else if len(block.Content) > 1 {
 			block.Type = "paragraph"
@@ -474,22 +455,20 @@ func collapseBlock(parent, block *Block) {
 		if len(block.Content) == 1 && block.Content[0].Type == "text" {
 			child := block.Content[0]
 			block.Content = nil
-			if block.ID == "" {
-				block.ID = child.ID
+			if block.Id == "" {
+				block.Id = child.Id
 			}
 			block.Text = child.Text
 			block.Italic = block.Italic || child.Italic
-			block.Strike = block.Strike || child.Strike
+			block.StrikeThrough = block.StrikeThrough || child.StrikeThrough
 			block.Bold = block.Bold || child.Bold
 			block.Underline = block.Underline || child.Underline
 			block.Class = mergeClass(block.Class, child.Class)
 			if child.Style != nil {
 				if block.Style == nil {
-					block.Style = make(map[string]string)
+					block.Style = &header.Style{}
 				}
-				for k, v := range child.Style {
-					block.Style[k] = v
-				}
+				mergeStyle(block.Style, child.Style)
 			}
 		}
 	}
@@ -497,30 +476,28 @@ func collapseBlock(parent, block *Block) {
 	if block.Type == "paragraph" {
 		if len(block.Content) == 1 && block.Content[0].Type == "paragraph" {
 			child := block.Content[0]
-			id := block.ID
+			id := block.Id
 			if id == "" {
-				id = child.ID
+				id = child.Id
 			}
 			class := mergeClass(block.Class, child.Class)
 			style := block.Style
 			if child.Style != nil {
 				if style == nil {
-					style = make(map[string]string)
+					style = &header.Style{}
 				}
-				for k, v := range child.Style {
-					style[k] = v
-				}
+				mergeStyle(style, child.Style)
 			}
 
 			*block = *child
-			block.ID = id
+			block.Id = id
 			block.Class = class
 			block.Style = style
 		}
 	}
 
 	if collapsedTypeMaps[strings.ToUpper(block.Type)] && parent != nil {
-		var newContents []*Block
+		var newContents []*header.Block
 		for _, child := range parent.Content {
 			if child != block {
 				newContents = append(newContents, child)
@@ -532,7 +509,7 @@ func collapseBlock(parent, block *Block) {
 	}
 }
 
-func cleanBlock(block *Block) {
+func cleanBlock(block *header.Block) {
 	if block == nil {
 		return
 	}
@@ -543,7 +520,7 @@ func cleanBlock(block *Block) {
 			cleanBlock(child)
 		}
 	}
-	if len(block.Style) == 0 {
+	if isStyleEmpty(block.Style) {
 		block.Style = nil
 	}
 	if len(block.Attrs) == 0 {
@@ -551,7 +528,7 @@ func cleanBlock(block *Block) {
 	}
 }
 
-func cleanEmptyP(block *Block) *Block {
+func cleanEmptyP(block *header.Block) *header.Block {
 	if block == nil {
 		return nil
 	}
@@ -562,7 +539,7 @@ func cleanEmptyP(block *Block) *Block {
 		return block
 	}
 
-	var newContent []*Block
+	var newContent []*header.Block
 	for _, child := range block.Content {
 		c := cleanEmptyP(child)
 		if c != nil {
@@ -580,4 +557,292 @@ func cleanEmptyP(block *Block) *Block {
 func Md5sum(str string) string {
 	hash := md5.Sum([]byte(str))
 	return hex.EncodeToString(hash[:])
+}
+
+func setStyleField(s *header.Style, key, value string) {
+	switch key {
+	case "border_radius":
+		s.BorderRadius = value
+	case "font_family":
+		s.FontFamily = value
+	case "color":
+		s.Color = value
+	case "background":
+		s.Background = value
+	case "text_align":
+		s.TextAlign = value
+	case "text_transform":
+		s.TextTransform = value
+	case "font_style":
+		s.FontStyle = value
+	case "font_weight":
+		s.FontWeight = value
+	case "width":
+		s.Width = value
+	case "max_width":
+		s.MaxWidth = value
+	case "height":
+		s.Height = value
+	case "max_height":
+		s.MaxHeight = value
+	case "padding_left":
+		s.PaddingLeft = value
+	case "padding_right":
+		s.PaddingRight = value
+	case "padding_top":
+		s.PaddingTop = value
+	case "padding_bottom":
+		s.PaddingBottom = value
+	case "margin_left":
+		s.MarginLeft = value
+	case "margin_right":
+		s.MarginRight = value
+	case "margin_top":
+		s.MarginTop = value
+	case "margin_bottom":
+		s.MarginBottom = value
+	case "position":
+		s.Position = value
+	case "object_fit":
+		s.ObjectFit = value
+	case "line_height":
+		s.LineHeight = value
+	case "background_position":
+		s.BackgroundPosition = value
+	case "left":
+		s.Left = value
+	case "right":
+		s.Right = value
+	case "top":
+		s.Top = value
+	case "bottom":
+		s.Bottom = value
+	case "opacity":
+		s.Opacity = value
+	case "rotate":
+		s.Rotate = value
+	case "blur":
+		s.Blur = value
+	case "grayscale":
+		s.Grayscale = value
+	case "flex":
+		s.Flex = value
+	case "flex_direction":
+		s.FlexDirection = value
+	case "flex_shrink":
+		s.FlexShrink = value
+	case "align_items":
+		s.AlignItems = value
+	case "justify_content":
+		s.JustifyContent = value
+	case "transform":
+		s.Transform = value
+	case "font_size":
+		s.FontSize = value
+	case "z_index":
+		s.ZIndex = value
+	case "border_bottom":
+		s.BorderBottom = value
+	case "border_left":
+		s.BorderLeft = value
+	case "border_top":
+		s.BorderTop = value
+	case "border_right":
+		s.BorderRight = value
+	case "border":
+		s.Border = value
+	case "box_shadow":
+		s.BoxShadow = value
+	case "overflow":
+		s.Overflow = value
+	case "overflow_x":
+		s.OverflowX = value
+	case "overflow_y":
+		s.OverflowY = value
+	case "white_space":
+		s.WhiteSpace = value
+	case "user_select":
+		s.UserSelect = value
+	case "pointer_events":
+		s.PointerEvents = value
+	}
+}
+
+func isStyleEmpty(s *header.Style) bool {
+	if s == nil {
+		return true
+	}
+	return s.BorderRadius == "" && s.FontFamily == "" && s.Color == "" && s.Background == "" && s.TextAlign == "" &&
+		s.TextTransform == "" && s.FontStyle == "" && s.FontWeight == "" && s.Width == "" && s.MaxWidth == "" &&
+		s.Height == "" && s.MaxHeight == "" && s.PaddingLeft == "" && s.PaddingRight == "" && s.PaddingTop == "" &&
+		s.PaddingBottom == "" && s.MarginLeft == "" && s.MarginRight == "" && s.MarginTop == "" && s.MarginBottom == "" &&
+		s.Position == "" && s.ObjectFit == "" && s.LineHeight == "" && s.BackgroundPosition == "" && s.Left == "" &&
+		s.Right == "" && s.Top == "" && s.Bottom == "" && s.Opacity == "" && s.Rotate == "" && s.Blur == "" &&
+		s.Grayscale == "" && s.Flex == "" && s.FlexDirection == "" && s.FlexShrink == "" && s.AlignItems == "" &&
+		s.JustifyContent == "" && s.Transform == "" && s.FontSize == "" && s.ZIndex == "" && s.BorderBottom == "" &&
+		s.BorderLeft == "" && s.BorderTop == "" && s.BorderRight == "" && s.Border == "" && s.BoxShadow == "" &&
+		s.Overflow == "" && s.OverflowX == "" && s.OverflowY == "" && s.WhiteSpace == "" && s.UserSelect == "" &&
+		s.PointerEvents == "" && s.Hover == nil
+}
+
+func mergeStyle(dst, src *header.Style) {
+	if src == nil || dst == nil {
+		return
+	}
+	if src.BorderRadius != "" {
+		dst.BorderRadius = src.BorderRadius
+	}
+	if src.FontFamily != "" {
+		dst.FontFamily = src.FontFamily
+	}
+	if src.Color != "" {
+		dst.Color = src.Color
+	}
+	if src.Background != "" {
+		dst.Background = src.Background
+	}
+	if src.TextAlign != "" {
+		dst.TextAlign = src.TextAlign
+	}
+	if src.TextTransform != "" {
+		dst.TextTransform = src.TextTransform
+	}
+	if src.FontStyle != "" {
+		dst.FontStyle = src.FontStyle
+	}
+	if src.FontWeight != "" {
+		dst.FontWeight = src.FontWeight
+	}
+	if src.Width != "" {
+		dst.Width = src.Width
+	}
+	if src.MaxWidth != "" {
+		dst.MaxWidth = src.MaxWidth
+	}
+	if src.Height != "" {
+		dst.Height = src.Height
+	}
+	if src.MaxHeight != "" {
+		dst.MaxHeight = src.MaxHeight
+	}
+	if src.PaddingLeft != "" {
+		dst.PaddingLeft = src.PaddingLeft
+	}
+	if src.PaddingRight != "" {
+		dst.PaddingRight = src.PaddingRight
+	}
+	if src.PaddingTop != "" {
+		dst.PaddingTop = src.PaddingTop
+	}
+	if src.PaddingBottom != "" {
+		dst.PaddingBottom = src.PaddingBottom
+	}
+	if src.MarginLeft != "" {
+		dst.MarginLeft = src.MarginLeft
+	}
+	if src.MarginRight != "" {
+		dst.MarginRight = src.MarginRight
+	}
+	if src.MarginTop != "" {
+		dst.MarginTop = src.MarginTop
+	}
+	if src.MarginBottom != "" {
+		dst.MarginBottom = src.MarginBottom
+	}
+	if src.Position != "" {
+		dst.Position = src.Position
+	}
+	if src.ObjectFit != "" {
+		dst.ObjectFit = src.ObjectFit
+	}
+	if src.LineHeight != "" {
+		dst.LineHeight = src.LineHeight
+	}
+	if src.BackgroundPosition != "" {
+		dst.BackgroundPosition = src.BackgroundPosition
+	}
+	if src.Left != "" {
+		dst.Left = src.Left
+	}
+	if src.Right != "" {
+		dst.Right = src.Right
+	}
+	if src.Top != "" {
+		dst.Top = src.Top
+	}
+	if src.Bottom != "" {
+		dst.Bottom = src.Bottom
+	}
+	if src.Opacity != "" {
+		dst.Opacity = src.Opacity
+	}
+	if src.Rotate != "" {
+		dst.Rotate = src.Rotate
+	}
+	if src.Blur != "" {
+		dst.Blur = src.Blur
+	}
+	if src.Grayscale != "" {
+		dst.Grayscale = src.Grayscale
+	}
+	if src.Flex != "" {
+		dst.Flex = src.Flex
+	}
+	if src.FlexDirection != "" {
+		dst.FlexDirection = src.FlexDirection
+	}
+	if src.FlexShrink != "" {
+		dst.FlexShrink = src.FlexShrink
+	}
+	if src.AlignItems != "" {
+		dst.AlignItems = src.AlignItems
+	}
+	if src.JustifyContent != "" {
+		dst.JustifyContent = src.JustifyContent
+	}
+	if src.Transform != "" {
+		dst.Transform = src.Transform
+	}
+	if src.FontSize != "" {
+		dst.FontSize = src.FontSize
+	}
+	if src.ZIndex != "" {
+		dst.ZIndex = src.ZIndex
+	}
+	if src.BorderBottom != "" {
+		dst.BorderBottom = src.BorderBottom
+	}
+	if src.BorderLeft != "" {
+		dst.BorderLeft = src.BorderLeft
+	}
+	if src.BorderTop != "" {
+		dst.BorderTop = src.BorderTop
+	}
+	if src.BorderRight != "" {
+		dst.BorderRight = src.BorderRight
+	}
+	if src.Border != "" {
+		dst.Border = src.Border
+	}
+	if src.BoxShadow != "" {
+		dst.BoxShadow = src.BoxShadow
+	}
+	if src.Overflow != "" {
+		dst.Overflow = src.Overflow
+	}
+	if src.OverflowX != "" {
+		dst.OverflowX = src.OverflowX
+	}
+	if src.OverflowY != "" {
+		dst.OverflowY = src.OverflowY
+	}
+	if src.WhiteSpace != "" {
+		dst.WhiteSpace = src.WhiteSpace
+	}
+	if src.UserSelect != "" {
+		dst.UserSelect = src.UserSelect
+	}
+	if src.PointerEvents != "" {
+		dst.PointerEvents = src.PointerEvents
+	}
 }
