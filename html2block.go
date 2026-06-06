@@ -74,6 +74,9 @@ var LexicalEmojiList []Emoji
 func HTML2Block(htmlStr string) *header.Block {
 	htmlStr = strings.TrimSpace(htmlStr)
 	doc, _ := html.Parse(strings.NewReader(htmlStr))
+	if doc == nil {
+		return nil
+	}
 	body := findBody(doc)
 	if body == nil {
 		body = doc
@@ -96,6 +99,10 @@ func HTML2Block(htmlStr string) *header.Block {
 }
 
 func findBody(n *html.Node) *html.Node {
+	if n == nil {
+		return nil
+	}
+
 	if n.Type == html.ElementNode && strings.ToUpper(n.Data) == "BODY" {
 		return n
 	}
@@ -108,6 +115,10 @@ func findBody(n *html.Node) *html.Node {
 }
 
 func getAttr(n *html.Node, key string) string {
+	if n == nil {
+		return ""
+	}
+
 	for _, a := range n.Attr {
 		if a.Key == key {
 			return a.Val
@@ -117,6 +128,10 @@ func getAttr(n *html.Node, key string) string {
 }
 
 func hasClass(n *html.Node, className string) bool {
+	if n == nil {
+		return false
+	}
+
 	cl := getAttr(n, "class")
 	fields := strings.Fields(cl)
 	for _, f := range fields {
@@ -166,6 +181,10 @@ func getFormatedResultOfDom(n *html.Node) (bold, italic, underline, strike bool)
 }
 
 func getTextContent(n *html.Node) string {
+	if n == nil {
+		return ""
+	}
+
 	if n.Type == html.TextNode {
 		return n.Data
 	}

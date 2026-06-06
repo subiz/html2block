@@ -199,7 +199,7 @@ func TestHTML2Block_EmptyTextEquivalence(t *testing.T) {
 }
 
 func TestHTMLToBlock1(t *testing.T) {
-	for i := range 9 {
+	for i := range 11 {
 		t.Run(strconv.Itoa(i), func(t *testing.T) {
 			html, err := os.ReadFile(fmt.Sprintf("./test-data/%d.html", i))
 			if err != nil {
